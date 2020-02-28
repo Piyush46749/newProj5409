@@ -1,7 +1,4 @@
 import random
-import string
-import time
-from datetime import datetime
 
 file=open("input.txt", "w")
 
