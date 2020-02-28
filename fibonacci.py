@@ -16,5 +16,5 @@ for j, each in enumerate(file):
 		time_taken=after_time-before_time
 		fib=fib+"|"+str(n2)
 	print (fib)
-	log_file.write(str(j)+","+str(time_taken)+","+str(each)+","+str(fib))
+	log_file.write(str(j)+","+str(time_taken)+","+str(each.strip())+","+str(fib))
 	log_file.write("\n")
